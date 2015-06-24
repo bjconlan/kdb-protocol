@@ -1,4 +1,4 @@
-package kx.kdb; //jar cf c.jar kx/*.class
+package kx.kdb.protocol; //jar cf c.jar kx/*.class
 import java.net.*;import java.io.*;import java.sql.*;import java.lang.reflect.Array;import java.text.*;import java.util.UUID;
 //tick: c c=new c("",5010);Object[]x={"GE",new Double(2.5),new Integer(23)};c.k(".u.upd","trade",x);
 	//Object[]x={new Time(t()),"xx",new Double(93.5),new Integer(300)};for(int i=0;i<1000;++i)c.ks("upsert","trade",x);c.k("");
