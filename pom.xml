@@ -6,9 +6,7 @@
   <artifactId>kdb-protocol</artifactId>
   <version>1.0.0</version>
 
-  <scm>
-    <url>https://github.com/bjconlan/kdb-protocol.git</url>
-  </scm>
+  <url>https://github.com/bjconlan/kdb-protocol</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -40,6 +38,9 @@
           <noJekyll>true</noJekyll>
           <outputDirectory>${project.build.directory}/mvn-repo</outputDirectory>
           <branch>refs/heads/repository</branch>
+          <includes>
+            <include>**/*</include>
+          </includes>
         </configuration>
         <executions>
           <execution>
