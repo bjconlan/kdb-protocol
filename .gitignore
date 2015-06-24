@@ -1,0 +1,35 @@
+# Intellij project files
+*.iml
+*.ipr
+*.iws
+.idea
+
+# Eclipse project folders
+.classpath
+.project
+.settings
+
+# Netbeans project helpers
+nb-configuration.xml
+
+# Maven output folder
+target
+
+# Gradle output folder
+.gradle
+build
+
+# Binary files
+*.exe
+*.dll
+*.so*
+*.dll
+*.class
+*.jar
+*.war
+
+# OSX finder metadata
+.DS_Store
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
